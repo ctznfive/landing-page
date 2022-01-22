@@ -49,6 +49,8 @@ body {
     max-width: 50%;
     width: auto;
     height: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #000;
 }
 
 .main h1 {
@@ -149,4 +151,42 @@ a:hover {
     font-weight: bold;
     padding: 0 20px;
     align-self: flex-end;
+}
+
+.fourth-section {
+    height: 350px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    padding: 6vh 8vw;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #aaa;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+.fourth-section h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.fourth-section p {
+    color: #e5e7eb;
+    margin: 0;
+}
+
+.fourth-section button {
+    background-color: #3882f6;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 4px 32px;
+    border: 2px solid #e5e7eb;
+    border-radius: 8px;
 }
