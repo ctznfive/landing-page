@@ -3,11 +3,14 @@ body {
     margin: 0;
 }
 
-.first-section {
+.first-section,
+.footer {
     background-color: #1f2937;
-    color: white;
-    height: 500px;
     padding: 0 180px;
+}
+
+.first-section {
+    height: 500px;
     display: flex;
     flex-direction: column;
 }
@@ -189,4 +192,13 @@ a:hover {
     padding: 4px 32px;
     border: 2px solid #e5e7eb;
     border-radius: 8px;
+}
+
+.footer {
+    color: #e5e7eb;
+    font-size: 18px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
